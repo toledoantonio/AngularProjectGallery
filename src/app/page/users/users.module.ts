@@ -2,13 +2,13 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { UsersRoutingModule } from './users-routing.module';
-import { AllComponent } from './components/all/all.component';
+import { AllUsersComponent } from './components/allUsers/allUsers.component';
 import { SubscribedComponent } from './components/subscribed/subscribed.component';
 
 
 @NgModule({
   declarations: [
-    AllComponent,
+    AllUsersComponent,
     SubscribedComponent
   ],
   imports: [

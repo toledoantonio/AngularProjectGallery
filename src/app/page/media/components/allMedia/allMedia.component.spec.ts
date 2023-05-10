@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AllComponent } from './all.component';
+import { AllComponent } from './allMedia.component';
 
 describe('AllComponent', () => {
   let component: AllComponent;

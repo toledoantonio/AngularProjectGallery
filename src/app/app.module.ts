@@ -14,6 +14,10 @@ import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatExpansionModule } from '@angular/material/expansion';
+import { AllMediaComponent } from './page/media/components/allMedia/allMedia.component';
+import { RecentComponent } from './page/media/components/recent/recent.component';
+import { AllUsersComponent } from './page/users/components/allUsers/allUsers.component';
+import { SubscribedComponent } from './page/users/components/subscribed/subscribed.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +25,11 @@ import { MatExpansionModule } from '@angular/material/expansion';
     MenuComponent,
     Empresa1Component,
     Empresa2Component,
-    Empresa3Component
+    Empresa3Component,
+    AllMediaComponent,
+    RecentComponent,
+    AllUsersComponent,
+    SubscribedComponent
   ],
   imports: [
     BrowserModule,

@@ -32,8 +32,8 @@
           </mat-expansion-panel-header>
 
           <mat-nav-list>
-            <a mat-list-item routerLink="/allMedia"> All </a>
-            <a mat-list-item routerLink="/recent"> Recent </a>
+            <a mat-list-item routerLink="/media/allMedia"> All </a>
+            <a mat-list-item routerLink="/media/recent"> Recent </a>
             <a mat-list-item href="#"> Images </a>
             <a mat-list-item href="#"> Video </a>
           </mat-nav-list>
@@ -48,8 +48,8 @@
           </mat-expansion-panel-header>
 
           <mat-nav-list>
-            <a mat-list-item routerLink="/allUsers"> All </a>
-            <a mat-list-item routerLink="/subscribed"> Subscribed </a>
+            <a mat-list-item routerLink="/users/allUsers"> All </a>
+            <a mat-list-item routerLink="/users/subscribed"> Subscribed </a>
             <a mat-list-item href="#"> Non-subscribed </a>
             <a mat-list-item href="#"> Banned </a>
             <a mat-list-item href="#"> New </a>
@@ -90,6 +90,7 @@
         vitae perferendis itaque veritatis explicabo! Id sapiente perferendis
         iusto omnis provident?
       </p>
+      <router-outlet></router-outlet>
     </mat-sidenav-content>
   </mat-sidenav-container>
 </div>

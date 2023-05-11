@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./recent.component.scss']
 })
 export class RecentComponent implements OnInit {
+  title = "Recent";
+  a=3;
 
   constructor() { }
 

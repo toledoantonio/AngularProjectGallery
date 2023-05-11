@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./subscribed.component.scss']
 })
 export class SubscribedComponent implements OnInit {
+  title = 'Subscribed';
 
   constructor() { }
 

@@ -97,12 +97,34 @@ p {
 	font-size: 1.7rem;
 }
 
+.mat-list-base .mat-list-item .mat-list-item-content, .mat-list-base .mat-list-option .mat-list-item-content {
+	height: 0%;
+}
+
+.mat-list-base .mat-list-item, .mat-list-base .mat-list-option {
+	height: 4rem;
+}
+
+.mat-nav-list {
+	padding-top: 0%;
+}
+
+.mat-list-item{
+	font-size: large;
+}
+
+.mat-expansion-panel{
+	box-shadow: none;
+	background-color: $background-color_2;
+}
+
 .mat-expansion-panel-header{
 	padding-left: 1rem;
+	height: auto;
 }
 
 .mat-expansion-panel-header-title{
-	font-size: medium;
+	font-size: large;
 	line-height: 3.5;
 }
 
@@ -113,6 +135,19 @@ p {
 .menub {
 	color: $background-color_1;
 	padding-right: 1rem;
+	display: flex;
+	align-items: center;
+}
+
+.iconb{
+	padding-right: 1rem;
+	display: flex;
+	align-items: center;
+	transition: 0.4s;
+
+	&:hover{
+		color: $color_white;
+	}
 }
 
 .contenedor-padre {
@@ -128,6 +163,7 @@ p {
 
 .contenido {
     flex: 1 1 auto;
+	background-color: $color_gray;
 }
 
 .padding-10 {

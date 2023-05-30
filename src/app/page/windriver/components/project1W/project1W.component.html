@@ -1,11 +1,10 @@
-<div>
-    <p>Usted esta en {{ title }}</p>
-</div>
-  
+<h1>{{ title }}</h1>
+
+
 <div class="section-container">
-    <div *ngFor="let section of sections" class="section">
-      <h2>{{ section.title }}</h2>
-      <img [src]="section.image" alt="{{ section.title }}" />
-      <p>{{ section.description }}</p>
-    </div>
+  <div *ngFor="let section of sections" class="section">
+    <h2>{{ section.title }}</h2>
+    <img [src]="section.image" alt="{{ section.title }}" />
+    <p>{{ section.description }}</p>
   </div>
+</div>
